@@ -42,7 +42,7 @@ When you do not want a Pingrole just don't set the role
 
 
 1. /setup channel: #channel send_embed: true send_alerts: true role: @PINGROLE 
-(this would send Permanent Staus embed + Notify on Changes into same Discord Channel with Roleping)
+(this would send Permanent Status embed + Notify on Changes into same Discord Channel with Roleping)
 2. /setup channel: #channel2 send_embed: false send_alerts: true role: @PINGROLE 
 (this would not send the Status Embed, it would Notify on Changes into the Channel Discord Channel with a Roleping)
 
