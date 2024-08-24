@@ -1,0 +1,6 @@
+{
+  "discord_bot_token": "ENTER BOT TOKEN HERE",
+  "refresh_interval": 60,
+  "status_url": "https://berlinv.statuspage.io//api/v2/status.json",
+  "components_url": "https://status.cfx.re/api/v2/components.json"
+}
