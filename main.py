@@ -229,7 +229,7 @@ async def update_embed():
                 component_lines.append(component_line)
 
             embed.add_field(name="Components Status", value='\n'.join(component_lines), inline=False)
-            embed.set_footer(text=f"Last Update: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | by @gluecksjoint", icon_url="https://i.imgur.com/VXvsDIA.png")
+            embed.set_footer(text=f"Last Update: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} | by @SimpiAj", icon_url="https://i.imgur.com/VXvsDIA.png")
             embed.set_thumbnail(url=thumbnail_url)  # Thumbnail für den allgemeinen Status
 
             bot.recent_embed = embed
