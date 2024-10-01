@@ -50,4 +50,4 @@ When you do not want a Pingrole just don't set the role
 
 # Future Plans
 
-In a future update, I plan to add configuration options to customize the thumbnail URLs for the status embed and error messages.
+In a future update, I plan to add configuration options to customize the thumbnail URLs for the status embed and error messages and maybe add multiple language support.
