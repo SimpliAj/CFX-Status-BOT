@@ -26,19 +26,19 @@ class Commands(Cog):
         )
         embed.set_author(
             name=self.bot.user.name,
-            icon_url="https://i.imgur.com/VXvsDIA.png"
+            icon_url="https://avatars.githubusercontent.com/u/122173112?v=4"
         )
 
         embed.add_field(name='Support', value='[Click here](https://github.com/SimpliAj/CFX-Status-BOT)',  inline=False)
         embed.add_field(
             name='Add Bot',
-            value="[Click here](https://discord.com/oauth2/authorize?client_id=1276866058237775983&permissions=2048&integration_type=0&scope=bot)"
+            value="[Click here](https://discord.com/oauth2/authorize?client_id=1400414658535489566&permissions=2147494912&integration_type=0&scope=bot)"
         )
         
 
         embed.add_field(name='Server Count', value=len(self.bot.guilds))
         embed.add_field(name='User Count', value=total_members)
-        embed.set_footer(text='CFX Status bot | by @SimpiAj', icon_url="https://i.imgur.com/VXvsDIA.png")
+        embed.set_footer(text='CFX Status bot | by @SimpiAj', icon_url="https://avatars.githubusercontent.com/u/122173112?v=4")
 
         await interaction.response.send_message(embed=embed)
 
@@ -74,13 +74,13 @@ class Commands(Cog):
         )
         embed.add_field(
             name='Level Up Your Discord Experience',
-            value="Upgrade your Discord server with our Cfx.re Status Monitor Bot. With instant updates, personalized alerts, and easy integration, you can bid farewell to constant refreshing and hello to seamless information.\n\n Don't miss out on crucial updates – add our bot now and enjoy hassle-free status tracking! :video_game::globe_with_meridians::bar_chart: Check the current ⁠cfx-status and soon you will be able to add the <@1276866058237775983> to your own discord server",
+            value="Upgrade your Discord server with our Cfx.re Status Monitor Bot. With instant updates, personalized alerts, and easy integration, you can bid farewell to constant refreshing and hello to seamless information.\n\n Don't miss out on crucial updates – add our bot now and enjoy hassle-free status tracking! :video_game::globe_with_meridians::bar_chart: Check the current ⁠cfx-status and soon you will be able to add the <@1400414658535489566> to your own discord server",
             inline=False
         )
-        embed.set_thumbnail(url="https://i.imgur.com/VXvsDIA.png")
+       # embed.set_thumbnail(url="https://avatars.githubusercontent.com/u/122173112?v=4")
         embed.set_footer(
             text='Status Bot | by @SimpliAj',
-            icon_url="https://i.imgur.com/VXvsDIA.png"
+            icon_url="https://avatars.githubusercontent.com/u/122173112?v=4"
         )
 
         await interaction.response.send_message(embed=embed)
@@ -117,10 +117,10 @@ class Commands(Cog):
     
 
 
-        embed.set_thumbnail(url="https://i.imgur.com/VXvsDIA.png")
+        embed.set_thumbnail(url="https://avatars.githubusercontent.com/u/122173112?v=4")
         embed.set_footer(
             text='CFX Status bot | by @SimpliAj',
-            icon_url="https://i.imgur.com/VXvsDIA.png"
+            icon_url="https://avatars.githubusercontent.com/u/122173112?v=4"
         )
 
         await interaction.response.send_message(embed=embed)
