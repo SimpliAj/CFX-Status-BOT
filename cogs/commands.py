@@ -26,7 +26,7 @@ class Commands(Cog):
         )
         embed.set_author(
             name=self.bot.user.name,
-            icon_url="https://avatars.githubusercontent.com/u/122173112?v=4"
+           # icon_url="https://avatars.githubusercontent.com/u/122173112?v=4"
         )
 
         embed.add_field(name='Support', value='[Click here](https://github.com/SimpliAj/CFX-Status-BOT)',  inline=False)
